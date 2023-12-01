@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="21" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-26T12:23:43 IST" name="Default suite" finished-at="2023-10-26T13:00:36 IST" duration-ms="2212973">
+    <groups>
+    </groups>
+    <test started-at="2023-10-26T12:23:43 IST" name="Default test" finished-at="2023-10-26T13:00:36 IST" duration-ms="2212973">
+      <class name="testPackage.FaxSendFunctionality">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:23:43 IST" name="beforeTest" finished-at="2023-10-26T12:23:46 IST" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="readdata()[pri:0, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:23:46 IST" name="readdata" finished-at="2023-10-26T12:23:48 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readdata -->
+        <test-method signature="server_auth()[pri:1, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:23:48 IST" name="server_auth" finished-at="2023-10-26T12:23:55 IST" duration-ms="7580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- server_auth -->
+        <test-method signature="loginModule()[pri:2, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:23:55 IST" name="loginModule" finished-at="2023-10-26T12:24:17 IST" duration-ms="21629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginModule -->
+        <test-method signature="patientModule()[pri:3, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:24:17 IST" name="patientModule" finished-at="2023-10-26T12:27:06 IST" duration-ms="169044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientModule -->
+        <test-method signature="payorInsuranceModule()[pri:4, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:27:06 IST" name="payorInsuranceModule" finished-at="2023-10-26T12:32:21 IST" duration-ms="314700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payorInsuranceModule -->
+        <test-method signature="ServicePreferenceModule()[pri:5, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:32:21 IST" name="ServicePreferenceModule" finished-at="2023-10-26T12:32:41 IST" duration-ms="20427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServicePreferenceModule -->
+        <test-method signature="allergyClinicalModule()[pri:6, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:32:41 IST" name="allergyClinicalModule" finished-at="2023-10-26T12:33:37 IST" duration-ms="56172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allergyClinicalModule -->
+        <test-method signature="vitalsClinicalModule()[pri:7, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:33:37 IST" name="vitalsClinicalModule" finished-at="2023-10-26T12:35:06 IST" duration-ms="88681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vitalsClinicalModule -->
+        <test-method signature="labsClinicalModule()[pri:8, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:35:06 IST" name="labsClinicalModule" finished-at="2023-10-26T12:38:07 IST" duration-ms="181438" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="text" name="renalFunctionDate" id="renalFunctionDate" value="10/26/2023" class="form-control dateformat  hasDatepicker" onchange="" onblur="isDate(this); checkMaxDate(this, 'today'); checkMinDate(this);"> is not clickable at point (200, 427). Other element would receive the click: <div id="overlay" class="overlay" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="text" name="renalFunctionDate" id="renalFunctionDate" value="10/26/2023" class="form-control dateformat  hasDatepicker" onchange="" onblur="isDate(this); checkMaxDate(this, 'today'); checkMinDate(this);"> is not clickable at point (200, 427). Other element would receive the click: <div id="overlay" class="overlay" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dataPackage.LabsClinicalData.renalDateClick(LabsClinicalData.java:821)
+at methodPackage.LabsMethods.renalTestNotAcceptOutOfRange(LabsMethods.java:1008)
+at testPackage.LabsFunctionality.labsClinicalModule(LabsFunctionality.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labsClinicalModule -->
+        <test-method signature="socialHistoryClinicalModule()[pri:9, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:38:07 IST" name="socialHistoryClinicalModule" finished-at="2023-10-26T12:38:11 IST" duration-ms="3161" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="#" class="Clinical Profile fcm-dropdown fcmActive " data-toggle="dropdown">...</a> is not clickable at point (552, 83). Other element would receive the click: <div id="overlay" class="overlay" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="Clinical Profile fcm-dropdown fcmActive " data-toggle="dropdown">...</a> is not clickable at point (552, 83). Other element would receive the click: <div id="overlay" class="overlay" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dataPackage.AllergyClinicalData.clinicalProfileTabClick(AllergyClinicalData.java:73)
+at methodPackage.SocialHistoryMethods.socialHistoryClinicalWithoutData(SocialHistoryMethods.java:68)
+at testPackage.SocialHistoryFunctionality.socialHistoryClinicalModule(SocialHistoryFunctionality.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialHistoryClinicalModule -->
+        <test-method signature="healthHistoryClinicalModule()[pri:10, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:38:11 IST" name="healthHistoryClinicalModule" finished-at="2023-10-26T12:38:14 IST" duration-ms="3128" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="#" class="Clinical Profile fcm-dropdown fcmActive " data-toggle="dropdown">...</a> is not clickable at point (552, 83). Other element would receive the click: <div id="overlay" class="overlay" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="Clinical Profile fcm-dropdown fcmActive " data-toggle="dropdown">...</a> is not clickable at point (552, 83). Other element would receive the click: <div id="overlay" class="overlay" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dataPackage.AllergyClinicalData.clinicalProfileTabClick(AllergyClinicalData.java:73)
+at methodPackage.HealthHistoryMethods.healthHistoryFamilyClinicalWithoutData(HealthHistoryMethods.java:45)
+at testPackage.HealthHistoryFunctionality.healthHistoryClinicalModule(HealthHistoryFunctionality.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthHistoryClinicalModule -->
+        <test-method signature="medListClinicalModule()[pri:11, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:38:14 IST" name="medListClinicalModule" finished-at="2023-10-26T12:39:55 IST" duration-ms="101583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- medListClinicalModule -->
+        <test-method signature="AddCaseModule()[pri:12, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:39:55 IST" name="AddCaseModule" finished-at="2023-10-26T12:41:03 IST" duration-ms="67296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCaseModule -->
+        <test-method signature="AddPrescription()[pri:13, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:41:03 IST" name="AddPrescription" finished-at="2023-10-26T12:42:38 IST" duration-ms="95004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPrescription -->
+        <test-method signature="caseBannerModule()[pri:14, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:42:38 IST" name="caseBannerModule" finished-at="2023-10-26T12:43:20 IST" duration-ms="42845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseBannerModule -->
+        <test-method signature="preBIModule()[pri:15, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:43:20 IST" name="preBIModule" finished-at="2023-10-26T12:44:15 IST" duration-ms="54516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preBIModule -->
+        <test-method signature="AddConsentModule()[pri:16, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:44:15 IST" name="AddConsentModule" finished-at="2023-10-26T12:46:35 IST" duration-ms="140206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddConsentModule -->
+        <test-method signature="PriorAuthorizationModule()[pri:17, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:46:35 IST" name="PriorAuthorizationModule" finished-at="2023-10-26T12:47:35 IST" duration-ms="59768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriorAuthorizationModule -->
+        <test-method signature="AddAppealModule()[pri:18, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:47:35 IST" name="AddAppealModule" finished-at="2023-10-26T12:49:57 IST" duration-ms="142313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAppealModule -->
+        <test-method signature="CopayModule()[pri:19, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:49:57 IST" name="CopayModule" finished-at="2023-10-26T12:51:45 IST" duration-ms="107791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopayModule -->
+        <test-method signature="AddFoundationModule()[pri:20, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:51:45 IST" name="AddFoundationModule" finished-at="2023-10-26T12:53:11 IST" duration-ms="86039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFoundationModule -->
+        <test-method signature="PostBI()[pri:21, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:53:11 IST" name="PostBI" finished-at="2023-10-26T12:53:58 IST" duration-ms="46647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBI -->
+        <test-method signature="pointOfSaleModule()[pri:22, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:53:58 IST" name="pointOfSaleModule" finished-at="2023-10-26T12:57:38 IST" duration-ms="220714" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=118.0.5993.117)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'TDS-5CG1075Y48', ip: '172.24.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.117, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\nsoneri\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 688121db367dfa92a9d3c4d0fb66f39d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:987)
+at methodPackage.POSMethod.refillCase(POSMethod.java:645)
+at testPackage.POSFunctionality.pointOfSaleModule(POSFunctionality.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pointOfSaleModule -->
+        <test-method signature="CommunicationModule()[pri:23, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:57:38 IST" name="CommunicationModule" finished-at="2023-10-26T12:58:55 IST" duration-ms="76620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommunicationModule -->
+        <test-method signature="FaxSend()[pri:24, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T12:58:55 IST" name="FaxSend" finished-at="2023-10-26T13:00:33 IST" duration-ms="98091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaxSend -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testPackage.FaxSendFunctionality@4c1909a3]" started-at="2023-10-26T13:00:33 IST" name="afterTest" finished-at="2023-10-26T13:00:36 IST" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testPackage.FaxSendFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
