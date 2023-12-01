@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-25T09:40:58 IST" name="Suite" finished-at="2022-02-25T09:41:17 IST" duration-ms="18358">
+    <groups>
+    </groups>
+    <test started-at="2022-02-25T09:40:58 IST" name="Test" finished-at="2022-02-25T09:41:17 IST" duration-ms="18358">
+      <class name="TestPackage.LoginFunctionality">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestPackage.LoginFunctionality@482bce4f]" started-at="2022-02-25T09:40:58 IST" name="beforeTest" finished-at="2022-02-25T09:41:00 IST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="readdata()[pri:0, instance:TestPackage.LoginFunctionality@482bce4f]" started-at="2022-02-25T09:41:00 IST" name="readdata" finished-at="2022-02-25T09:41:01 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readdata -->
+        <test-method signature="server_auth()[pri:1, instance:TestPackage.LoginFunctionality@482bce4f]" started-at="2022-02-25T09:41:01 IST" name="server_auth" finished-at="2022-02-25T09:41:05 IST" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- server_auth -->
+        <test-method signature="loginModule()[pri:2, instance:TestPackage.LoginFunctionality@482bce4f]" started-at="2022-02-25T09:41:05 IST" name="loginModule" finished-at="2022-02-25T09:41:14 IST" duration-ms="9597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginModule -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPackage.LoginFunctionality@482bce4f]" started-at="2022-02-25T09:41:14 IST" name="afterTest" finished-at="2022-02-25T09:41:17 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPackage.LoginFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
